@@ -1,0 +1,2 @@
+# NetCodeAPI_Boilerplates
+Dotnetcore_boilerplate
