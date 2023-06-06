@@ -52,3 +52,10 @@ These projects are structured to follow a typical layered architecture for build
 ## Contributing
 
 If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## Images
+### Solution Folder
+![image](https://github.com/ebenvpaul/NetCodeAPI_Boilerplates/assets/24457351/c9a7a2fd-a263-44ba-a96d-7e8414a3b789)
+### Project Structure
+![image](https://github.com/ebenvpaul/NetCodeAPI_Boilerplates/assets/24457351/7405c7a8-1afc-4626-8279-4ac6748d4dd2)
+
