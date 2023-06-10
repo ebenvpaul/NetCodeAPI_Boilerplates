@@ -21,12 +21,28 @@ To use the setup script, follow these steps:
    ```bash
    chmod +x setup.sh
    ```
-
+   In mac OS ,In Terminal run : this will enable write permission for file create-projects-osx.sh 
+   ```
+   chmod +x create-projects-osx.sh 
+   ```
+   
+   To verify the permissions try running this
+   
+   ```
+   ls -l create-projects-osx.sh
+   ```
+   
 5. Execute the script using the following command:
 
    ```bash
    ./setup.sh
    ```
+   
+   In Mac, Run this
+   ```
+   ./create-projects-osx.sh
+   ```
+   
 
    The script will perform the following actions:
 
