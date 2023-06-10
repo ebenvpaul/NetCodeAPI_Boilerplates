@@ -35,7 +35,6 @@ mkdir Model Middleware DTOs Data Services Entities Extensions Helpers Interfaces
 
 echo -e "${green}Setting up SQL connection string${reset}"
 sed -i '' '1s/{//' appsettings.json
-cat appsettings.json
 echo '{
   "ConnectionStrings": {
     "DefaultConnection": "YOUR_SQL_CONNECTION_STRING"
