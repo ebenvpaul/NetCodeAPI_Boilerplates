@@ -29,6 +29,19 @@ cd ../Persistence
 dotnet add reference ../Domain/Domain.csproj
 cd ..
 
+echo -e "${green}Creating necessary folders in API project${reset}"
+cd API
+mkdir Model Middleware DTOs Data Services Entities Extensions Helpers Interfaces
+
+echo -e "${green}Setting up SQL connection string${reset}"
+sed -i '' '1s/{//' appsettings.json
+cat appsettings.json
+echo '{
+  "ConnectionStrings": {
+    "DefaultConnection": "YOUR_SQL_CONNECTION_STRING"
+  },'|cat - appsettings.json > temp && mv temp appsettings.json > /dev/null
+
+
 echo -e "${green}Executing dotnet restore${reset}"
 dotnet restore
 
